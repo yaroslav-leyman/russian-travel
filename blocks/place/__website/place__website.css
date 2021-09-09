@@ -1,0 +1,6 @@
+.place__website {
+  display: grid;
+  grid-column-start: 2;
+  align-items: end;
+  margin-top: auto;
+}
