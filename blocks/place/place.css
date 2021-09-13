@@ -3,3 +3,9 @@
   column-gap: 20px;
   row-gap: 48px;
 }
+
+@media screen and (max-width: 769px) {
+  .place {
+    grid-template-columns: repeat(auto-fit, minmax(222px, 1fr));
+  }
+}

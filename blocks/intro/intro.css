@@ -3,3 +3,14 @@
   width: 690px;
   height: 429px;
 }
+
+@media screen and (max-width: 1100px) {
+  .intro {
+    margin: 92px 286px 92px 48px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .intro {
+    margin: 88px 24px;
+  }
+}
