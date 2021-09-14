@@ -5,3 +5,10 @@
   margin: 28px 48px 56px 48px;
   height: 52px;
 }
+
+@media screen and (max-width: 470px) {
+  .header {
+    margin: 16px 16px 42px 16px;
+    height: 42px;
+  }
+}

@@ -16,3 +16,10 @@
     row-gap: 73px;
   }
 }
+@media screen and (max-width: 470px) {
+  .places {
+    display: flex;
+    flex-direction: column;
+    padding: 88px 24px;
+  }
+}

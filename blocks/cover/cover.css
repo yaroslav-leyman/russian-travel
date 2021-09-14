@@ -21,3 +21,13 @@
     grid-template-rows: repeat(3, 32vh);
   }
 }
+@media screen and (max-width: 470px) {
+  .cover {
+    grid-template-rows: repeat(2, 13vh);
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover {
+    grid-template-rows: repeat(2, 12vh);
+  }
+}

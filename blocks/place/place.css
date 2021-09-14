@@ -9,3 +9,9 @@
     grid-template-columns: repeat(auto-fit, minmax(222px, 1fr));
   }
 }
+@media screen and (max-width: 470px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+  }
+}

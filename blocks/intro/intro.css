@@ -14,3 +14,9 @@
     margin: 88px 24px;
   }
 }
+@media screen and (max-width: 470px) {
+  .intro {
+    height: 754px;
+    margin: 64px 16px;
+  }
+}
