@@ -1,3 +1,13 @@
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 570px) {
+  .footer__links {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 470px) {
   .footer__links {
     display: contents;

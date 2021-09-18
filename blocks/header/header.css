@@ -3,12 +3,17 @@
   justify-content: space-between;
   align-items: flex-end;
   margin: 28px 48px 56px 48px;
-  height: 52px;
+  min-height: 52px;
 }
 
+@media screen and (max-width: 769px) {
+  .header {
+    margin: 28px 24px 48px 24px;
+  }
+}
 @media screen and (max-width: 470px) {
   .header {
     margin: 16px 16px 42px 16px;
-    height: 42px;
+    min-height: 42px;
   }
 }

@@ -1,14 +1,10 @@
 .place {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   column-gap: 20px;
   row-gap: 48px;
 }
 
-@media screen and (max-width: 769px) {
-  .place {
-    grid-template-columns: repeat(auto-fit, minmax(222px, 1fr));
-  }
-}
 @media screen and (max-width: 470px) {
   .place {
     display: flex;
