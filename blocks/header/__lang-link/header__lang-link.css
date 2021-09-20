@@ -9,3 +9,14 @@
 .header__lang-link:first-of-type {
   padding-right: 18px;
 }
+.header__lang-link:hover {
+  opacity: 0.8;
+  transition: 0.45s;
+}
+
+@media screen and (max-width: 470px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 111%;
+  }
+}

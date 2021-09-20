@@ -3,10 +3,12 @@
   grid-column-start: 2;
   align-items: end;
   margin-top: auto;
+  padding-bottom: 48px;
 }
 
 @media screen and (max-width: 470px) {
   .place__website {
     padding-left: 16px;
+    padding-bottom: 32px;
   }
 }

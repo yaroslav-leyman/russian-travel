@@ -6,6 +6,7 @@
   font-size: 72px;
   line-height: 106%;
   color: #FFFFFF;
+  padding-bottom: 48px;
 }
 
 @media screen and (max-width: 769px) {
@@ -19,5 +20,6 @@
     font-size: 32px;
     line-height: 109%;
     padding-left: 16px;
+    padding-bottom: 32px;
   }
 }
